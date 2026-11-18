@@ -1,0 +1,23 @@
+# --- Arduino ---
+build/
+*.hex
+*.elf
+*.bin
+*.eep
+*.map
+.vscode/
+.theia/
+
+# --- KiCad ---
+*.lck
+*-backups/
+fp-info-cache
+*.bak
+*.kicad_prl
+_autosave-*
+\#auto_saved_files#
+
+# --- Système ---
+.DS_Store
+Thumbs.db
+desktop.ini
