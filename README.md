@@ -140,6 +140,8 @@ Les dates sont les dates de dernière modification des fichiers originaux.
 
 ![Architecture matérielle](docs/architecture-materielle.png)
 
+*Document de conception préliminaire. Le câblage final est celui de la section [Câblage](#câblage), avec des bus I2C séparés.*
+
 **Algorigramme**
 
 ![Algorigramme](docs/algorigramme.png)
@@ -164,7 +166,7 @@ Le code final ne règle pas l'heure de la RTC, il lit seulement l'heure déjà e
 
 ## Mon rôle
 
-J'ai réalisé le montage et le code. Le schéma électrique et les documents de conception ont été réalisés par mes coéquipiers.
+J'ai pris en charge le montage et le développement du code final. Le schéma électrique et les documents de conception ont été réalisés par mes coéquipiers.
 
 ## Équipe
 
@@ -180,3 +182,9 @@ Mickaël, Selim, Yohan et moi.
 - Un traitement du signal plus avancé.
 - Une communication sans fil.
 - Plus de stockage.
+
+## Licence
+
+Le code des dossiers `code/` et `tests/` est distribué sous licence MIT (voir [`LICENSE`](LICENSE)), © 2026 Équipe Cardio ECE.
+
+Les dossiers `schema/` et `docs/` ne sont pas couverts par cette licence et restent la propriété de leurs auteurs.
